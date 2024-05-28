@@ -1,0 +1,56 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+
+.header{
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  left: 48%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+  height: 180px;
+  width: 300px;
+}
+.signin{
+  position: absolute;
+  display: block;
+  right: 5%;
+  padding-top: 24px;
+}
+.signup{
+  position: absolute;
+  display: block;
+  right: 0%;
+  padding-top: 24px;
+}
+.top{
+  background: url('./assets/top.jpg');
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.bedside{
+  background: url('./assets/bedside.jpg');
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
